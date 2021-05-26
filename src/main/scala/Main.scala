@@ -9,6 +9,7 @@ object Main {
     val secondHighest = fsh.secondHighest(list)
 
     println(s"The second Highest element is : ${secondHighest}")
+    println("Just to check")
 
   }
 }
