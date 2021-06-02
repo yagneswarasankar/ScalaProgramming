@@ -1,4 +1,6 @@
-class findSecondHighestNumber {
+package com.scala.girija.miscelleneous
+
+class FindSecondHighestNumber {
 
    def secondHighest(l :List[Int]):AnyVal = {
 
