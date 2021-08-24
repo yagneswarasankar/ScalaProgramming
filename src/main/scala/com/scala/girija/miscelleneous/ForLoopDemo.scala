@@ -1,4 +1,5 @@
-package com.scala.girija
+package com.scala.girija.miscelleneous
+
 class ForLoopDemo {
 
    def printlist(l: List[Int]): Unit ={

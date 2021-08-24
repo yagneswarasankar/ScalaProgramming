@@ -3,9 +3,10 @@
   <component name="ScalaCompilerConfiguration">
     <option name="compileOrder" value="JavaThenScala" />
     <option name="implicitConversions" value="true" />
-    <profile name="sbt 1" modules="Scala,scala">
+    <profile name="sbt 1" modules="scala">
       <option name="compileOrder" value="JavaThenScala" />
       <option name="implicitConversions" value="true" />
     </profile>
+    <profile name="sbt 2" modules="Scala" />
   </component>
 </project>

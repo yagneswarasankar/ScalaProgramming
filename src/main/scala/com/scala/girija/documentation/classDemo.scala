@@ -2,19 +2,23 @@ package com.scala.girija
 
 object classDemo extends App {
 
-  val cd = new classDemo("Girija","Duvvuri")
+  //val cd = new classDemo("Girija","Duvvuri")
   /*println(cd.fname +" "+ cd.lName)
   val  p = new Person("Girija","Sankar")
   p.age = 45
   println(p.toString)*/
 
-
-  val f = (x:Int) => x + 1
+  val cwvv = new classWithoutvarval("Girija")
+  println(cwvv.toString)
+ /* val f = (x:Int) => x + 1
   println(f.toString())
   val k = f.compose((y:Int) => y * y)
-  println(f.apply(3))
+  println(f.apply(3))*/
 }
 
+class classWithoutvarval(fname: String){
+override def toString = s"$fname"
+}
 class classDemo (var fname:String, var lName: String)
 class Person(val firstName: String, val lastName:String) {
   var age = 0
@@ -25,6 +29,8 @@ class Person(val firstName: String, val lastName:String) {
   def printFullName(): Unit = println(this)
   printHome()
   printFullName()
-  println("you have reached the end of the constructor")
 
 }
+
+
+
